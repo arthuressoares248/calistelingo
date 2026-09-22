@@ -49,13 +49,6 @@ body {
   text-decoration: none;
   font-weight: 500;
   padding: 6px 4px;
-  transition: color 0.3s, border-bottom 0.3s;
-  border-bottom: 2px solid transparent;
-}
-
-.menu a:hover {
-  color: #ffb703;
-  border-bottom: 2px solid #ffb703;
 }
 
 .hero {
@@ -194,12 +187,6 @@ body {
   border-radius: 10px;
   border-top: 4px solid #ffb703;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .card h3 {
@@ -284,12 +271,6 @@ body {
   color: #fb8500;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s;
-}
-
-.recurso a:hover {
-  color: #111;
-  text-decoration: underline;
 }
 
 .rodape {
@@ -321,12 +302,6 @@ body {
   border: 2px solid #ffb703;
   padding: 8px 16px;
   border-radius: 6px;
-  transition: background 0.3s, color 0.3s;
-}
-
-.rodape-links a:hover {
-  background: #ffb703;
-  color: #111;
 }
 
 @media (max-width: 768px) {
