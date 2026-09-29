@@ -58,7 +58,7 @@ body {
   gap: 40px;
   flex-wrap: wrap;
   padding: 60px 40px;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 100%);
+  background: #1a1a1a;
   color: #fff;
 }
 
@@ -102,16 +102,6 @@ body {
   font-size: 2rem;
   margin-bottom: 15px;
   color: #111;
-}
-
-.titulo-secao::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: #ffb703;
-  margin: 10px auto 0;
-  border-radius: 2px;
 }
 
 .subtitulo {
@@ -185,7 +175,6 @@ body {
   background: #fff;
   padding: 22px;
   border-radius: 10px;
-  border-top: 4px solid #ffb703;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
@@ -208,10 +197,6 @@ body {
   padding: 4px 0;
   font-size: 0.95rem;
   color: #444;
-}
-
-.card.destaque {
-  border-top-color: #023047;
 }
 
 .dicas {
