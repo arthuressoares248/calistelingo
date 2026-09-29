@@ -284,9 +284,6 @@ body {
   color: #ffb703;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #ffb703;
-  padding: 8px 16px;
-  border-radius: 6px;
 }
 
 @media (max-width: 768px) {
